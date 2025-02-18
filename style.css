@@ -20,7 +20,16 @@
     background-repeat: no-repeat;
     height: 400px ;
 }
-#descripcion{
+#SubTitulo{
     font-size: xx-large;
     color: #fff
+}
+#descripcion{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+}
+#tarjetas{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 }
